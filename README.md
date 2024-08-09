@@ -7,18 +7,27 @@ This project is a web-based application built with Streamlit to predict the spec
 The Iris dataset is a well-known dataset in the field of machine learning. It contains 150 samples of iris flowers, with 50 samples each from three species: Iris setosa, Iris versicolor, and Iris virginica. Each sample has four features: sepal length, sepal width, petal length, and petal width.
 
 ## Installation
-First, clone the repository to your local machine using git
+1. First, clone the repository to your local machine using git
 ```bash
 git clone https://github.com/AnshDhalla1/Species-Prediction-with-Streamlit-and-RandomForest
 cd Species-Prediction-with-Streamlit-and-RandomForest
 ```
+2. Create a new virtual environment:
+```bash
+python -m venv myenv  
+```
 
-Install the required dependencies:
+3. Activate the virtual environment:
+```bash
+source myenv/bin/activate 
+```
+
+4. Install the required dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the Model:
+5. Run the Model:
 ```bash
 streamlit run classifier.py
 ```
