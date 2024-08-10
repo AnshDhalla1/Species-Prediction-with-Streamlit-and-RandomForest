@@ -38,3 +38,7 @@ streamlit run classifier.py
 2. **Model Training:** A RandomForestClassifier is trained on the Iris dataset to classify iris species.
 3. **User Input:** The user inputs sepal and petal dimensions through a sidebar slider interface.
 4. **Prediction:** The trained model predicts the species based on the user's input, displaying the result in the app.
+
+
+<img width="1440" alt="Screenshot 2024-08-09 at 3 06 31 PM" src="https://github.com/user-attachments/assets/2c2047b9-5ac1-42b7-a40b-f9420927359e">
+<img width="1440" alt="Screenshot 2024-08-09 at 3 06 49 PM" src="https://github.com/user-attachments/assets/27475cfd-8190-4012-8b53-ab21a577ea35">
